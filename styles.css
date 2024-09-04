@@ -15,6 +15,7 @@ a:hover {
   font-weight: 600;
   font-size: 3em;
   line-height: 1.1em;
+  font-family: "Source Serif Pro", "Georgia", serif;
 }
 
 #currently {
@@ -48,6 +49,12 @@ a:hover {
 .item-description {
   font-weight: 300;
 }
+iframe {
+  height: auto;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
 
 @media screen and (max-width: 992px) {
   .intro {
